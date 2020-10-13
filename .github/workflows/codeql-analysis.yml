@@ -7,10 +7,10 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [to-be-merged]
+    branches: [master]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [to-be-merged]
+    branches: [master]
   schedule:
     - cron: '0 14 * * 1'
 
